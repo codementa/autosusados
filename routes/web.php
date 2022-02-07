@@ -14,5 +14,9 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('posts');
 });
+
+// Route::get('/post/{post}', function ($slug) {  //{post} is a wildcard what ever I enter on the url post/wildcard will be pass a parameter of the function ($slug)
+//     return $slug;
+// });
